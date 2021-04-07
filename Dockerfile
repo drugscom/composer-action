@@ -6,6 +6,7 @@ LABEL 'com.github.actions.description'='Run PHP composer'
 RUN apk --no-cache add \
     composer=~2 \
     git=~2 \
+    openssh-client=~8.4 \
     php7-ctype=~7.4 \
     php7-dom=~7.4 \
     php7-simplexml=~7.4 \
