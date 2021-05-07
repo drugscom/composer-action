@@ -15,6 +15,7 @@ RUN apk --no-cache add \
     php7-xml=~7.4 \
     php7-xmlwriter=~7.4
 
-ENTRYPOINT [ "/usr/bin/composer" ]
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT [ "/entrypoint.sh" ]
 
 WORKDIR /app
