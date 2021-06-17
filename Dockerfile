@@ -7,13 +7,13 @@ RUN apk --no-cache add \
     composer=~2 \
     git=~2 \
     openssh-client=~8.6 \
-    php7-ctype=~7.4 \
-    php7-dom=~7.4 \
-    php7-simplexml=~7.4 \
-    php7-sockets=~7.4 \
-    php7-tokenizer=~7.4 \
-    php7-xml=~7.4 \
-    php7-xmlwriter=~7.4
+    php8-ctype=~8.0 \
+    php8-dom=~8.0 \
+    php8-simplexml=~8.0 \
+    php8-sockets=~8.0 \
+    php8-tokenizer=~8.0 \
+    php8-xml=~8.0 \
+    php8-xmlwriter=~8.0
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
