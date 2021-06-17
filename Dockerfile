@@ -8,6 +8,7 @@ RUN apk --no-cache add \
     openssh-client=~8.6 \
     php8=~8.0 \
     php8-ctype=~8.0 \
+    php8-curl=~8.0 \
     php8-dom=~8.0 \
     php8-mbstring=~8.0 \
     php8-openssl=~8.0 \
