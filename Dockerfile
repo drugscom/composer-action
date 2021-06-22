@@ -10,8 +10,11 @@ RUN apk --no-cache add \
     php8-ctype=~8.0 \
     php8-curl=~8.0 \
     php8-dom=~8.0 \
+    php8-fileinfo=~8.0 \
+    php8-iconv=~8.0 \
     php8-mbstring=~8.0 \
     php8-openssl=~8.0 \
+    php8-pdo=~8.0 \
     php8-phar=~8.0 \
     php8-simplexml=~8.0 \
     php8-sockets=~8.0 \
