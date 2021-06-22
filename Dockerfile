@@ -16,6 +16,7 @@ RUN apk --no-cache add \
     php8-openssl=~8.0 \
     php8-pdo=~8.0 \
     php8-phar=~8.0 \
+    php8-session=~8.0 \
     php8-simplexml=~8.0 \
     php8-sockets=~8.0 \
     php8-tokenizer=~8.0 \
