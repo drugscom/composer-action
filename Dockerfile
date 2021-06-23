@@ -10,6 +10,7 @@ RUN apk --no-cache add \
     php8-ctype=~8.0 \
     php8-curl=~8.0 \
     php8-dom=~8.0 \
+    php8-exif=~8.0 \
     php8-fileinfo=~8.0 \
     php8-iconv=~8.0 \
     php8-mbstring=~8.0 \
@@ -18,10 +19,13 @@ RUN apk --no-cache add \
     php8-phar=~8.0 \
     php8-session=~8.0 \
     php8-simplexml=~8.0 \
+    php8-soap=~8.0 \
     php8-sockets=~8.0 \
     php8-tokenizer=~8.0 \
     php8-xml=~8.0 \
+    php8-xmlreader=~8.0 \
     php8-xmlwriter=~8.0 \
+    php8-xsl=~8.0 \
     && ln -s /usr/bin/php8 /usr/local/bin/php
 
 RUN wget -q -O /usr/local/bin/composer 'https://getcomposer.org/download/2.1.3/composer.phar' \
