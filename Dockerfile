@@ -12,8 +12,11 @@ RUN apk --no-cache add \
     php8-dom=~8.0 \
     php8-exif=~8.0 \
     php8-fileinfo=~8.0 \
+    php8-gd=~8.0 \
     php8-iconv=~8.0 \
+    php8-intl=~8.0 \
     php8-mbstring=~8.0 \
+    php8-mysqli=~8.0 \
     php8-openssl=~8.0 \
     php8-pdo=~8.0 \
     php8-phar=~8.0 \
