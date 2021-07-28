@@ -29,6 +29,7 @@ RUN apk --no-cache add \
     php8-xmlreader=~8.0 \
     php8-xmlwriter=~8.0 \
     php8-xsl=~8.0 \
+    php8-zip=~8.0 \
     && ln -s /usr/bin/php8 /usr/local/bin/php
 
 RUN wget -q -O /usr/local/bin/composer 'https://getcomposer.org/download/2.1.3/composer.phar' \
