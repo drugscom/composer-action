@@ -1,4 +1,4 @@
-FROM docker.io/library/alpine:3.14.0
+FROM docker.io/library/alpine:3.14.1
 
 LABEL 'com.github.actions.name'='PHP composer'
 LABEL 'com.github.actions.description'='Run PHP composer'
