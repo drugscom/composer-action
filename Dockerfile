@@ -1,4 +1,4 @@
-FROM alpine:3.14.3
+FROM alpine:3.15.0
 
 LABEL 'com.github.actions.name'='PHP composer'
 LABEL 'com.github.actions.description'='Run PHP composer'
