@@ -18,21 +18,27 @@ RUN apk --no-cache add \
     php8-mbstring=~8.0 \
     php8-mysqli=~8.0 \
     php8-openssl=~8.0 \
+    php8-pcntl=~8.0 \
     php8-pdo=~8.0 \
+    php8-pdo_mysql=~8.0 \
+    php8-pecl-memcached=~3 \
     php8-phar=~8.0 \
+    php8-posix=~8.0 \
     php8-session=~8.0 \
     php8-simplexml=~8.0 \
     php8-soap=~8.0 \
     php8-sockets=~8.0 \
+    php8-tidy=~8.0 \
     php8-tokenizer=~8.0 \
     php8-xml=~8.0 \
     php8-xmlreader=~8.0 \
     php8-xmlwriter=~8.0 \
     php8-xsl=~8.0 \
     php8-zip=~8.0 \
+    tidyhtml=~5.8 \
     && ln -s /usr/bin/php8 /usr/local/bin/php
 
-RUN wget -q -O /usr/local/bin/composer 'https://getcomposer.org/download/2.1.3/composer.phar' \
+RUN wget -q -O /usr/local/bin/composer 'https://getcomposer.org/download/2.2.9/composer.phar' \
     && chmod +x /usr/local/bin/composer
 
 COPY entrypoint.sh /entrypoint.sh
